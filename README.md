@@ -51,17 +51,25 @@ A 2D civilization turn-based strategy game web application.
    npm install
    ```
 
-3. Create a Firebase project and configure:
+3. Set up environment variables:
+   - Copy `.env.example` to `.env`
+   ```
+   cp .env.example .env
+   ```
+   - Fill in your Firebase configuration values in `.env`
+
+4. Create a Firebase project and configure:
    - Enable Authentication with Email/Password
    - Create a Firestore database
-   - Update the Firebase configuration in `src/firebase/config.ts`
+   - Get your Firebase configuration from the Firebase Console
+   - Add the configuration values to your `.env` file
 
-4. Start the development server
+5. Start the development server
    ```
    npm start
    ```
 
-5. Open http://localhost:3000 to view the app in your browser
+6. Open http://localhost:3000 to view the app in your browser
 
 ## Deployment
 
@@ -70,13 +78,12 @@ A 2D civilization turn-based strategy game web application.
    npm run build
    ```
 
-2. Deploy to Firebase Hosting (optional)
+2. Deploy to GitHub Pages
    ```
-   npm install -g firebase-tools
-   firebase login
-   firebase init
-   firebase deploy
+   npm run deploy
    ```
+
+   Note: Make sure to set up the environment variables in your GitHub repository's secrets for GitHub Actions deployment.
 
 ## Game Mechanics
 
