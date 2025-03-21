@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/realms-of-war-web/static/css/main.3c793646.css",
-    "main.js": "/realms-of-war-web/static/js/main.e613d5e7.js",
+    "main.js": "/realms-of-war-web/static/js/main.f812cc96.js",
     "index.html": "/realms-of-war-web/index.html",
     "main.3c793646.css.map": "/realms-of-war-web/static/css/main.3c793646.css.map",
-    "main.e613d5e7.js.map": "/realms-of-war-web/static/js/main.e613d5e7.js.map"
+    "main.f812cc96.js.map": "/realms-of-war-web/static/js/main.f812cc96.js.map"
   },
   "entrypoints": [
     "static/css/main.3c793646.css",
-    "static/js/main.e613d5e7.js"
+    "static/js/main.f812cc96.js"
   ]
 }
